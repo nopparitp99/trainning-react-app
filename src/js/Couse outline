@@ -1,0 +1,30 @@
+
+Javascript 
+    . Variable: let, const, var 
+    . Module
+    . Destructuring
+    . Spread Operator
+    . Arrow Function
+    . Default Values
+    . Named Parameters
+    . Rest Parameters
+    . Template String
+    . Class
+    . Async/Await
+
+React
+    . Install React
+    . React Component
+        . Component Life cycle
+        . Functional Component
+        . Class Component
+        . Manage State Component
+    . Redux
+        . Concept
+        . Manage State with Redux
+    . Router
+        . React Router
+    . Call api
+        . axios
+
+
