@@ -1,4 +1,4 @@
-const name = 'Nuttavut Thongjor'
+const name = 'Hello world'
 console.log(`สวัสดีชาวโลก ผมชื่อ${name}`)
 
 // นอกจากนี้ template string ยังเอื้อต่อการทำ multiline string ด้วย
