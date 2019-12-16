@@ -1,5 +1,5 @@
 const name = 'Hello world'
-console.log(`สวัสดีชาวโลก ผมชื่อ${name}`)
+console.log(`สวัสดีชาวโลก ผมชื่อ ${name}`)
 
 // นอกจากนี้ template string ยังเอื้อต่อการทำ multiline string ด้วย
 const longString = `
@@ -9,3 +9,5 @@ const longString = `
   when an unknown printer took a galley of type and scrambled 
   it to make a type specimen book. 
 `
+
+let xx = 'Hello: \n' + name 

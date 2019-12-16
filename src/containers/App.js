@@ -13,8 +13,8 @@ class App extends Component {
     this.state = {
 			number: 0
 		}
-	}
-
+  }
+  
   componentWillMount() {
     console.log('componentWillMount')
   }
@@ -48,7 +48,7 @@ class App extends Component {
             Learn React
           </a>
           <Counter number={ this.state.number } />
-
+          
           <DummyComponent number={ this.state.number }/>
           <div>
           <button onClick={ _ => this.increase() }>+</button>

@@ -1,7 +1,9 @@
 const funcMap = args => {
-    return args.map( arg => arg * 2)
+    return args.map( arg => arg * 2 )
 }
 
 const funcFilter = args => {
-    return args.map( arg => arg == 1)
+    return args.filter( arg => arg == 1)
 }
+
+

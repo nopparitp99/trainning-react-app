@@ -9,8 +9,7 @@ const updateAvatar = (avatar) => {
   })
 }
 
-
-const getCurrentGravatar = (profile) => {
+const getCurrentAvatar = (profile) => {
   return new Promise((resolve, reject) => {
     fetch(`http://www.gravatar.com/avatar/${profile.email}`, (error, avatar) => {
       if(error) reject(error)
@@ -50,3 +49,27 @@ async function updateLatestAvatar(userId) {
 }
 
 updateLatestAvatar(13)
+
+
+function getDog() {
+  setTimeout(() => { 
+    // this ของ arrow function นี้จะหมายถึง
+    // this ตัวบน
+    function getFoodDog() {
+      setTimeout(() => { 
+        // this ของ arrow function นี้จะหมายถึง
+        // this ตัวบน
+        function getFoodDog2() {
+          setTimeout(() => { 
+            // this ของ arrow function นี้จะหมายถึง
+            // this ตัวบน
+             getFoodDog()
+          }, 100)
+        }
+      }, 100)
+    }
+  }, 100)
+}
+
+
+

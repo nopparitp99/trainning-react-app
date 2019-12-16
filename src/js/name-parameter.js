@@ -11,3 +11,16 @@ function request({ method='GET', ssl=false }) {
 console.log(method)
 }
 request({})
+
+function getPerson({ name, age }) {
+  return {
+    name, 
+    age
+  }
+}
+
+const payload = {
+  name: 'xx', 
+  age: 20
+}
+const newPerson = getPerson(payload)

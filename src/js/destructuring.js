@@ -17,6 +17,19 @@ let person = {
   // หากใช้ Destructuring จะเหลือแค่นี้
   let { age, gender, name } = person
   let { firstName, lastName } = name
+
+  function getPerson({ name }) {
+    return {
+      name: name
+    }
+  }
+
+  function getPerson({ name }) {
+    return {
+      name
+    }
+  }
+  
   
   // แต่ในความเป็นจริงแล้ว name เป็นเพียงแค่ทางผ่าน
   // เราไม่ต้องการมัน เราต้องการแค่ firstName และ lastName
