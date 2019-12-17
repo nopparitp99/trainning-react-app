@@ -43,11 +43,13 @@ import { addToCart, fetchItems } from '../actions/cartActions'
         )
     }
 }
+
 const mapStateToProps = (state)=>{
     return {
       items: state.items
     }
-  }
+}
+
 const mapDispatchToProps= (dispatch)=>{
     return{
         addToCart: (id)=> {dispatch(addToCart(id))},

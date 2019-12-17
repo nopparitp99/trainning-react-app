@@ -3,6 +3,8 @@ import { connect } from 'react-redux'
 import { Link } from 'react-router-dom'
 import { removeItem,addQuantity,subtractQuantity} from '../actions/cartActions'
 import Recipe from './Recipe'
+import Item6 from '../assets/images/item6.jpg'
+
 class Cart extends Component{
 
     //to remove the item completely
@@ -26,7 +28,7 @@ class Cart extends Component{
                        
                         <li className="collection-item avatar" key={item.id}>
                                     <div className="item-img"> 
-                                        <img src={item.img} alt={item.img} className=""/>
+                                        <img src={Item6} alt={item.img} className=""/>
                                     </div>
                                 
                                     <div className="item-desc">
